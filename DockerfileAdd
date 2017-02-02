@@ -1,0 +1,3 @@
+FROM busybox
+COPY ./add-server /home/
+CMD /home/add-server

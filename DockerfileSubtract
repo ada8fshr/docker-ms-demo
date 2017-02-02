@@ -1,0 +1,3 @@
+FROM busybox
+COPY ./subtract-server /home/
+CMD /home/subtract-server
